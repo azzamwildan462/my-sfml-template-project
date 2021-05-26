@@ -2,5 +2,7 @@ git add .
 git commit -m $1
 git push my-remote main
 echo "upload: "
+echo "remote: my-remote"
 echo "files: all"
-echo "commit: ".$1
+echo "branch: main"
+echo "commit: "$1
